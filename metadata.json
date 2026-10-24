@@ -1,0 +1,13 @@
+{
+  "uuid": "unlock-prompt-fix@vfontanela",
+  "name": "Unlock Prompt Fix",
+  "description": "Workaround for the GNOME Shell 51.1 lock screen password prompt intermittently failing to appear with a TypeError in authMenuButton.js. Resets a rejected initial authentication mechanism selection. Requires unlock-dialog mode to operate on the lock screen. Uses private Shell APIs; disable when the upstream bug is fixed.",
+  "shell-version": [
+    "51"
+  ],
+  "session-modes": [
+    "user",
+    "unlock-dialog"
+  ],
+  "url": "https://github.com/vfontanela/gnome-unlock-prompt-fix"
+}
